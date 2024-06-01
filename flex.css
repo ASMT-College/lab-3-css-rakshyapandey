@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header, .footer{
+    text-align: center;
+    height: 120px;
+    background-color: #546E7A;
+    font-size: 2rem;
+    padding-top: 50px;
+    color: white;
+}
+.body, .left, .sidebar{
+    height: 450px;
+    width: 520px;
+    font-size: 3rem;
+    padding-top: 200px;
+    text-align: center;
+    border: 1px solid black;
+}
+.flex{
+    display: flex;
+    background-color: #CFD8DC;
+}
